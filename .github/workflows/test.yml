@@ -14,6 +14,7 @@ jobs:
     uses: autumn-library/workflows/.github/workflows/test.yml@v1
     with:
       oscript_version: ${{ matrix.oscript_version }}
+      oneunit_version: 0.5.1
       locale: "en_US"
       test_engine: oneunit
       test_recursive: true
